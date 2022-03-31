@@ -3,10 +3,11 @@ import {Task} from '../Task'
 
 describe('testing task' , ()=> {
   it('should watch in props' , ()=> {
-    const {getByText} = render(<Task/>)
+    const {getByText} = render(<Task
+      title="title - fake"
+    />)
 
-
-    expect(getByText('Hello,world')).toBeTruthy()
+    expect(getByText('title - fake')).toBeTruthy()
 
   })
 })

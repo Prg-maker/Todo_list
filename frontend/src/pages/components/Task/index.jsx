@@ -6,14 +6,14 @@ import {
 
 } from './styles'
 
-export function Task(props){
+export function Task({title}){
 
   
 
   return(
 
     <Container>
-      <TaskTitle >{/*{props.title}*/} Hello,world</TaskTitle>
+      <TaskTitle >{title}</TaskTitle>
     </Container>
    
   )
