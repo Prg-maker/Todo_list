@@ -12,8 +12,8 @@ export function Task(props){
 
   return(
 
-    <Container   >
-      <TaskTitle >{props.title}</TaskTitle>
+    <Container>
+      <TaskTitle >{/*{props.title}*/} Hello,world</TaskTitle>
     </Container>
    
   )
