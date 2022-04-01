@@ -38,19 +38,7 @@ export const Form = styled.form`
   align-items: center;
   margin-top: 50px;
 
-  .cancel{
-    width: 185px;
-    height: 32px;
-    background: #FF0000;
-    color: white;
-    border-radius: 4px;
-    cursor: pointer;
-    transition: 0.2s;
-    margin-top: 20px;
-    &:hover{
-      filter: brightness(0.9);
-    }
-  }
+ 
 `
 export const Textarea = styled.textarea`
  
@@ -76,3 +64,23 @@ export const Button = styled.button`
   }
 `
 
+export const Link = styled.a`
+  width: 185px;
+  height: 32px;
+  background: #FF0000;
+  color: white;
+
+  text-decoration: none;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 4px;
+  cursor: pointer;
+  transition: 0.2s;
+  margin-top: 20px;
+  &:hover{
+    filter: brightness(0.9);
+  }
+`

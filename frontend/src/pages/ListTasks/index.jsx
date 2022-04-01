@@ -54,9 +54,9 @@ export function ListTasks(){
       <Title>To do App</Title>
 
 
-      <Link to="/create">
+      <a href='/create'>
         <Button>create new task</Button>
-      </Link>
+      </a>
 
 
       <Separete/>

@@ -16,9 +16,9 @@ function App() {
     <BrowserRouter>
       <Global/>
       <Routes>
-
-        <Route path="/" element={<ListTasks/>}/>
+        
         <Route path="/create" element={<CreateTask/>}/>
+        <Route path="/" element={<ListTasks/>}/>
 
       </Routes>
     
